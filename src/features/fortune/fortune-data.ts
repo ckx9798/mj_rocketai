@@ -1,0 +1,42 @@
+export const SAJU_DATA = {
+  si: {
+    sipseong: { value: "傷官", name: "상관" },
+    cheonkan: { value: "壬", name: "임", subname: "陽水", bgColor: "#2F2F2F" },
+    jiji: { value: "寅", name: "인", subname: "陽木", bgColor: "#18868C" },
+    sipseong2: { value: "比肩", name: "비견" },
+    sibiunseong: { value: "死", name: "사" },
+    sibishinsal: { value: "劫殺", name: "겁살" },
+    gwiin: null,
+  },
+  il: {
+    sipseong: { value: "比肩", name: "비견" },
+    cheonkan: { value: "丁", name: "정", subname: "陰火", bgColor: "#C23030" },
+    jiji: { value: "巳", name: "사", subname: "陰火", bgColor: "#C23030" },
+    sipseong2: { value: "劫財", name: "겁재" },
+    sibiunseong: { value: "帝旺", name: "제왕" },
+    sibishinsal: { value: "地殺", name: "지살" },
+    gwiin: null,
+  },
+  wol: {
+    sipseong: { value: "傷官", name: "상관" },
+    cheonkan: { value: "癸", name: "계", subname: "陰水", bgColor: "#2F2F2F" },
+    jiji: { value: "亥", name: "해", subname: "陰水", bgColor: "#2F2F2F" },
+    sipseong2: { value: "食神", name: "식신" },
+    sibiunseong: { value: "胎", name: "태" },
+    sibishinsal: { value: "驛馬殺", name: "역마살" },
+    gwiin: { value: "天乙", name: "천을귀인" },
+  },
+  nyeon: {
+    sipseong: { value: "傷官", name: "상관" },
+    cheonkan: { value: "癸", name: "계", subname: "陰水", bgColor: "#2F2F2F" },
+    jiji: { value: "酉", name: "유", subname: "陰金", bgColor: "#F9F9F9" },
+    sipseong2: { value: "偏財", name: "편재" },
+    sibiunseong: { value: "長生", name: "장생" },
+    sibishinsal: { value: "將星殺", name: "장성살" },
+    gwiin: [
+      { value: "天乙", name: "천을귀인" },
+      { value: "太極", name: "태극귀인" },
+      { value: "文昌", name: "문창귀인" },
+    ],
+  },
+};
